@@ -7,6 +7,6 @@ function draw() {
    
    
    c.fillStyle = 'rgba(200, 140, 15, 25)';
-   c.fillRect(width/2-15, height/2-30, 30, 60);
+   c.fillRect(500, 300, 30, 60);
  }
 }
