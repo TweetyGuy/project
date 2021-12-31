@@ -19,6 +19,7 @@
 	<body onload="draw();">
 		<canvas id="canvas"></canvas>
 		<script>
+			export const config = { amp: true }
 			function draw() {
 				var canvas = document.getElementById('canvas');
 				if(canvas.getContext) {
